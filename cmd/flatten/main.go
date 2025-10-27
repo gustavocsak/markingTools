@@ -15,7 +15,7 @@ var (
 
 	header = lipgloss.NewStyle().
 		Bold(true).
-		Foreground(lipgloss.Color("212")). // A nice purple
+		Foreground(lipgloss.Color("212")).
 		MarginBottom(1)
 
 	// command name style
@@ -28,7 +28,7 @@ var (
 
 	descStyle = lipgloss.NewStyle().Faint(true)
 
-	exampleCmd  = lipgloss.NewStyle().Foreground(lipgloss.Color("86")).MarginLeft(2) // Light green
+	exampleCmd  = lipgloss.NewStyle().Foreground(lipgloss.Color("86")).MarginLeft(2)
 	exampleDesc = lipgloss.NewStyle().Faint(true).MarginLeft(2).MarginBottom(1)
 
 	// example file structure
